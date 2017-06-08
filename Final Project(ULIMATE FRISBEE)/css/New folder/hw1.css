@@ -1,0 +1,152 @@
+/*  Author :			Mehdi Badiezadegan
+	File Title: 		Final Project
+	File name: 			hw1.css
+	Screen Resolution:  1600x900
+	Browser :			Chrome
+*/
+
+header{
+	background-color: #B5B1AB;
+	background: url("../images/flywheel.jpg");
+	background-size: 100% ;
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+
+body{
+	margin: 1%;
+	padding: 1%;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 25px;
+	padding-bottom: 2%;
+	text-shadow: 3px 3px 4px #000088;
+}
+
+h2{
+	color: #000077;
+	font-size: 21px;
+	text-shadow: 1px 1px 15px #000088;
+}
+
+img{
+	display:block;
+	width: 59%;
+	border: solid 2px;
+	border-color: rgb(0,0,0);
+	margin-top: 12%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img:hover{
+	opacity: .7;
+}
+
+.left{
+	background-color: rgb(119,115,32);
+	width: 20%;
+}
+.right{
+	background-color: rgb(255,255,255);
+	width: 78%;
+	margin: 1%;
+}
+.left, .right{
+	float: left;
+	padding-bottom: 10%;
+}
+.active{
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,255);
+	border-color: rgb(255,255,255);
+}
+
+p{
+	display: inline-block;
+	font-size: 19px;  
+}
+
+nav a{
+	background: rgba(255, 255, 255, .4);
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 19px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left:  6%;
+	padding-right: 6%;
+	margin-left : 7%; 
+	border-radius: 8px;
+	border: solid rgba(255, 255, 255, .4);
+    -webkit-background-clip: padding-box; 
+    background-clip: padding-box; 
+}
+
+nav a[href$=".org/index.html"]{
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+nav a:hover{
+	border: solid rgba(255, 255, 255, .6);
+	background-color: rgba(255,255,255, .6);
+    -webkit-background-clip: padding-box; 
+    background-clip: padding-box;
+}
+
+table{
+	width: 75%;
+	border-spacing: 1px;
+	margin-left: 10%;
+}
+
+th{
+	text-align: center;
+	font-size: 17px;
+	color: #8AF225;
+	height: 36px;
+	font-weight: bold;
+	background-color: #777320;
+	border:  solid rgba(165,227,86,0.3);
+	border-width: 1px 1px 3px 1px;
+	background: -webkit-linear-gradient(#58A98C  0%,#777320 90%);
+	-webkit-border-radius: 2px 2px 0 0;
+	text-shadow: 3px 3px 5px #000088;
+}
+th:first-child{
+	text-align: left;
+	padding-left: 3%;
+}
+
+td{
+	width:75px;
+	height:30px;
+	color: rgba(0,0,0,1);
+	text-align: center;
+	line-height: 2%;
+	background-color: rgba(227,246,209,1);
+	border: 3px solid rgba(235,242,228,1);
+	-webkit-border-radius:2px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Arial, serif;
+	opacity: .8;
+}
+
+tr td:first-child{
+	text-align: left;
+	width: 65%;
+	padding-left: 3%;
+}
+
+tr:hover>td{
+	opacity: 1.0;
+	text-shadow: 1px 1px 15px #252525;
+}

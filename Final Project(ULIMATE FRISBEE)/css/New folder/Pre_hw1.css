@@ -1,0 +1,93 @@
+/* HomeWork Two, hw1.css
+*/
+
+header{
+	background-color: #B5B1AB;
+	background: url("../images/flywheel.jpg");
+	background-size: 100% ;
+	padding-top: 1%;
+	padding-bottom: 5%;
+}
+
+body{
+	margin: 2%;
+	padding: 1%;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 28px;
+	margin-bottom: 3%;
+}
+
+h2{
+	color: #000077;
+	font-size: 26px;
+}
+
+img{
+	display:block;
+	width: 59%;
+	border: solid 2px;
+	border-color: rgb(0,0,0);
+	margin-top: 12%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left{
+	background-color: rgb(119,115,32);
+	width: 20%;
+}
+.right{
+	background-color: rgb(255,255,255);
+	width: 78%;
+	margin: 1%;
+}
+.left, .right{
+	float: left;
+	padding-bottom: 10%;
+}
+.active{
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,255);
+	border-color: rgb(255,255,255);
+}
+
+p{
+	display: inline-block;
+	font-size: 19px;  
+}
+
+nav a{
+	background: rgba(255, 255, 255, .4);
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 19px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left:  6%;
+	padding-right: 6%;
+	margin-left : 7%; 
+	border-radius: 8px;
+	border: solid rgba(255, 255, 255, .4);
+    -webkit-background-clip: padding-box; 
+    background-clip: padding-box; 
+}
+
+nav a[href$=".org/index.html"]{
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+th{
+	font-size: 24px;
+}
+
+td{
+	font-size: 19px;
+}
